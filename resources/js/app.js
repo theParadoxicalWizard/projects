@@ -58,6 +58,8 @@
             otherwise({
                 redirectTo: '/projects'
             });
+            
+            $locationProvider.html5mode(true);
     }]);
 
     app.controller('LanguageController', function ($scope, Languages) {
